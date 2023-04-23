@@ -9,7 +9,7 @@
     "types": [],
 
     /* Emit */
-    "declaration": true,
+    "declaration": false,
     "outDir": "./dist",
 
     /* Language and Environment */
