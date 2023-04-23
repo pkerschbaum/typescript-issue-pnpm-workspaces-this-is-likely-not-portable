@@ -1,3 +1,3 @@
 import * as express from "express";
-const app = express();
+const app: ReturnType<typeof express> = express();
 export { app };
