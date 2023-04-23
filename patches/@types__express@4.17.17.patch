@@ -1,0 +1,18 @@
+diff --git a/index.d.ts b/index.d.ts
+index 53dc74d77277c7fa4fd459caa7ed261bf3a0ea02..206ea77637032fc491eba88b37c44cbcf403228b 100755
+--- a/index.d.ts
++++ b/index.d.ts
+@@ -21,10 +21,12 @@ import * as serveStatic from 'serve-static';
+ import * as core from 'express-serve-static-core';
+ import * as qs from 'qs';
+ 
++export interface Express extends core.Express {};
++
+ /**
+  * Creates an Express application. The express() function is a top-level function exported by the express module.
+  */
+-declare function e(): core.Express;
++declare function e(): Express;
+ 
+ declare namespace e {
+     /**
