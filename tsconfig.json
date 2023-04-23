@@ -5,6 +5,11 @@
     "strict": true,
 
     /* Modules */
+    "paths": {
+      "express-serve-static-core": [
+        "./node_modules/.pnpm/@types+express-serve-static-core@4.17.33/node_modules/@types/express-serve-static-core"
+      ]
+    },
     "module": "CommonJS",
     "types": [],
 
