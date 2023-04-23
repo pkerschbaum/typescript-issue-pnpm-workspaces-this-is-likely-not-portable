@@ -1,0 +1,23 @@
+{
+  /* based on https://pkerschbaum.com/tidbits/sensible-tsconfig-defaults */
+  "compilerOptions": {
+    /* Type Checking */
+    "strict": true,
+
+    /* Modules */
+    "module": "CommonJS",
+    "types": [],
+
+    /* Emit */
+    "declaration": true,
+    "outDir": "./dist",
+
+    /* Language and Environment */
+    "target": "ES2017",
+
+    /* Completeness */
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/node_modules"]
+}
