@@ -12,6 +12,9 @@
     "declaration": true,
     "outDir": "./dist",
 
+    /* Interop Constraints */
+    "preserveSymlinks": true,
+
     /* Language and Environment */
     "target": "ES2017",
 
