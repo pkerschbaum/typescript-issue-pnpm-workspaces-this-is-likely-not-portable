@@ -11,12 +11,13 @@
   "devDependencies": {
     "@types/express": "^4.17.17",
     "del-cli": "^5.0.0",
-    "typescript": "^4.9.5"
+    "typescript": "^5.3.3"
   },
   "engines": {
     "node": "^18",
     "pnpm": "8.1.1"
   },
+  "packageManager": "pnpm@8.1.1",
   "pnpm": {
     "patchedDependencies": {
       "@types/express@4.17.17": "patches/@types__express@4.17.17.patch"
